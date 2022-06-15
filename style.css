@@ -1,0 +1,184 @@
+*{margin: 0px; padding: 0px;}
+:root{
+    --rootColor: #82ebc9;
+}
+body{
+    background-color: rgb(50 50 52);
+    color: rgb(119, 119, 119);
+}
+#container{
+    height: 100vh;
+}
+#mid{
+    flex-direction: column;
+    height: 31.5rem;
+    /* margin-bottom: 60rem; */
+    /* overflow:hidden; */
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar{
+    width: 100%;
+    justify-content: space-between;
+    margin: 0.1rem 0rem;
+    padding: 0.3rem 0rem;
+    border-bottom: 0.1px solid rgb(99, 98, 98);
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+}
+img{
+    width: 3rem;
+    height: 3rem;
+    margin: 0rem 0.2rem;
+}
+#title{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-left: 0.5rem;        
+    color: var(--rootColor);
+}
+/* #logo{
+    flex-direction: row;
+} */
+#mode{
+    flex-direction: column;
+    width: 10rem;    
+}
+#option{
+    font-size: 1.3rem;
+    color:var(--rootColor);
+}
+#value{
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+    width: 100%;
+}
+.selected{
+    color: var(--rootColor);
+}
+.option:hover{
+    cursor: pointer;
+    color: var(--rootColor);
+}
+#contact{
+    margin-right: 0.8rem;
+    font-size: 1.1rem;    
+}
+#contact a{
+    color: var(--rootColor);
+    text-decoration: none;
+}
+#contact a:hover{
+    color: rgb(245, 245, 245);
+    text-shadow: 0rem 0rem 0.1rem var(--rootColor);
+    text-decoration: underline;
+}
+.fas{
+    color: rgb(203, 196, 196);
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    padding-right: 2rem;
+}
+.fas:hover{
+    color: var(--rootColor);
+    text-shadow: 0 0 0.5rem var(--rootColor),0 0 0.8rem var(--rootColor);
+}
+.correct{
+    color: rgb(193, 214, 208);
+    font-weight: 500;
+}
+.incorrect{
+    color: rgb(161 42 27);
+    font-weight: 400;
+    font-size: 1.65rem;
+}
+.current{
+    /* border-left: 0.07rem solid var(--rootColor); */
+    box-shadow: -0.1rem 0rem var(--rootColor);
+}
+#displayPara{
+    font-size: 1.7rem;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 58rem;
+}
+
+.word{
+    /* margin: 0rem 0.3rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2rem;
+}
+.letter{
+    margin: 0rem 0.07rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.4rem;
+    white-space: pre-line;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+#timeDisplayer{
+    color: var(--rootColor);
+    font-size: 2rem; 
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 54rem;
+    margin-top: 2rem;
+    color: var(--rootColor);
+}
+.result{
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;  
+    justify-content: center;
+    flex-direction: column;
+    font-family: monospace;
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#details{
+    font-size: 1rem;
+    color: rgb(113, 111, 111);
+}
+.data{
+    font-size: 2.4rem;
+    color:white;
+    font-weight: 500;
+    font-family: Roboto,-apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#footer{
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+}
+#owner{
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f6e033;
+}
+.displayNone{
+    display: none;
+}
+.visibility{
+    visibility: hidden;
+}

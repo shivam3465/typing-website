@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="resposive.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Typing website</title>
+</head>
+
+<body onload="cursorBlinking()">
+    <div id="container">
+        <div id="navbar" class="flex">
+            <div id="logo" class="flex">
+                <img src="logo.png" alt="">
+                <div id="title">TOUCH TYPING</div>
+            </div>
+            <div id="mode" class="flex">
+                <div id="option">Time</div>
+                <div id="value" class="flex">
+                    <span id="value-15" class="option selected" onclick="option(15)">15</span>
+                    <span id="value-30" class="option" onclick="option(30)">30</span>
+                    <span id="value-60" class="option" onclick="option(60)">60</span>
+                    <span id="value-120" class="option" onclick="option(120)">120</span>
+                </div>
+            </div>
+            <div id="contact">
+                <a href="https://www.linkedin.com/in/shivam-kumar-187936210" target="_blank">Contact Me</a>
+            </div>
+        </div>
+
+        <div id="mid" class="flex">       
+                <div id="timeDisplayer"></div>
+                <div id="displayPara"></div>
+                <div class="bottom displayNone" id="bottom">
+                    <div class="result">
+                        <div>Speed:</div>
+                        <div class="data" id="speed"></div>
+                    </div>
+                    <div class="result">
+                        <div>Accuracy:</div>
+                        <div class="data" id="accuracy"></div>
+                    </div>
+                    <div class="result">
+                        <div>Raw:</div>
+                        <div class="data" id="raw"></div>
+                    </div>
+                    <div class="result">
+                        <div >Stats:</div>
+                        <div  id="details">(correct/incorrect/extra)</div>
+                        <div class="data" id="stats"></div>
+                    </div>
+                </div>
+                <i class='fas fa-redo-alt' onclick="restart()"></i>
+                <script src="script.js"></script>
+        </div>
+
+        <div id="footer">
+            All rights reserved to &copy; <span id="owner">Shivam Singh.</span>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+@media screen and (max-width:880px)  and (min-width:780px){
+    html{
+        font-size: 85%;
+    }
+    #mid{
+        height: 34rem;
+        margin-bottom: 10rem;
+    }
+}
+@media screen and (max-width:780px)  and (min-width:655px){
+    html{
+        font-size: 75%;
+    }
+    #mid{
+        height: 36rem;
+        margin-bottom: 12rem;
+    }
+}
+@media screen and (max-width:665px)  and (min-width:555px){
+    html{
+        font-size: 62%;
+    }
+    #mid{
+        height: 52rem;
+        margin-bottom:17rem;
+    }
+}
+@media screen and (max-width:555px)  and (min-width:450px){
+    html{
+        font-size: 54%;
+    }
+    #mid{
+        height: 60rem;
+        margin-bottom: 12rem;
+    }
+}
+@media screen and (max-width:450px) and (min-width:400px) {
+    html{
+        font-size: 43%;
+    }
+    #mid{
+        height: 70rem;
+        margin-bottom: 10rem;
+    }
+    #title{
+        font-size: 1.9rem;
+    }
+    #contact,#option{
+        font-size: 1.7rem;
+    }
+    #value{
+        font-size: 1.4rem;
+    }
+    #footer{
+        padding-top: 5rem;
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:399px) and (min-width:350px) {
+    html{
+        font-size: 40%;
+    }
+    #mid{
+        height: 70rem;
+        margin-bottom: 11rem;
+    }
+    #title{
+        font-size: 1.9rem;
+    }
+    #contact,#option{
+        font-size: 1.7rem;
+    }
+    #value{
+        font-size: 1.4rem;
+    }
+    #footer{
+        padding-top: 5rem;
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:350px) {
+    html{
+        font-size: 39%;
+    }
+    #mid{
+        height: 75rem;
+        margin-bottom: 15rem;
+    }
+    #title{
+        font-size: 1.9rem;
+    }
+    #contact,#option{
+        font-size: 1.7rem;
+    }
+    #value{
+        font-size: 1.4rem;
+    }
+    #footer{
+        padding-top: 5rem;
+        font-size: 1.4rem;
+    }
+}
